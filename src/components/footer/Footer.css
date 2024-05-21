@@ -1,0 +1,40 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  height: 50px;
+  background-color: #433f3ff2;
+}
+
+.footer a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #fffef4;
+}
+
+.footer .design-credit {
+  font-size: 10px;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer svg {
+  margin-right: 0.25rem;
+}
+
+.git-stats,
+.git-stats a {
+  display: flex;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.git-stats p {
+  margin-right: 10px;
+}
