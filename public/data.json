@@ -77,7 +77,7 @@
   },
   "headerData": {
     "resumeSrc": "/assets/Resume_SahilSoni.pdf",
-    "logoSrc": "/assets/favicon-512x512.png"
+    "logoSrc": "./assets/favicon-512x512.png"
   },
   "footerData": {
     "gitUrl": "https://github.com/iamsahilsoni/SahilSoniWebPortfolio2023",
