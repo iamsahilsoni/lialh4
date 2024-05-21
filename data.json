@@ -25,28 +25,28 @@
     "projectWork": [
       {
         "project_heading": "Build Your Portfolio (React App)",
-        "imgSrc": "assets/build-your-portfolio-app.png",
+        "imgSrc": "./assets/build-your-portfolio-app.png",
         "project_desc": "Designed a portfolio builder form, allowing users to create a custom JSON file for portfolio by filling out a form; Created a clean design and integrated useful features, making the portfolio project an effective tool for developers to showcase work and establish a professional online presence.",
         "gitUrl": "https://github.com/iamsahilsoni/SahilSoniWebPortfolio2023",
         "extUrl": "https://sahilsoni.me/build-your-portfolio"
       },
       {
         "project_heading": "Twitter Analytics (React App)",
-        "imgSrc": "assets/twitter-analytics-app.png",
+        "imgSrc": "./assets/twitter-analytics-app.png",
         "project_desc": "Single-page Twitter Analytics app, where users can enter a Twitter handle or hashtag and retrieve relevant data. As my first React project, I gained a solid understanding of component-based development and data flow. I also implemented data adaptation to facilitate efficient communication between components and the backend. ",
         "gitUrl": "https://github.com/iamsahilsoni/twitter_analytics_ADT_course",
         "extUrl": "https://iamsahilsoni-twitter-analytics.netlify.app/"
       },
       {
         "project_heading": "Zero Waste (Angular App)",
-        "imgSrc": "assets/zero-waste-app.png",
+        "imgSrc": "./assets/zero-waste-app.png",
         "project_desc": "Key contributor to an Angular-powered dashboard featuring login and signup pages with real-time validation. Built using best practices, project demonstrates my development expertise and commitment to quality.",
         "gitUrl": "https://github.com/iamsahilsoni/zero-waste",
         "extUrl": "https://iamsahilsoni-zero-waste.netlify.app//"
       },
       {
         "project_heading": "Deep learning based image classification (Publication)",
-        "imgSrc": "assets/publication.png",
+        "imgSrc": "./assets/publication.png",
         "project_desc": "Co-authored a research publication titled 'Deep learning based image classification for intestinal hemorrhage' in the journal Multimedia Tools and Applications. Our study focused on developing a supervised learning ensemble to accurately detect bleeding in images of Wireless Capsule Endoscopy, using convolutional neural networks and optimized attribute selection.",
         "extUrl": "https://doi.org/10.1007/s11042-020-08905-7"
       }
