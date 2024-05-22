@@ -116,7 +116,7 @@ class HeaderFooterForm extends Component {
               type="text"
               name={`creditUrl`}
               value={footerData.creditUrl}
-              placeholder="https://sahilsoni.me"
+              placeholder="http://lialh4.com"
               onChange={(event) => {
                 const { name, value } = event.target;
                 this.setState((prevState) => ({

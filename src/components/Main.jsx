@@ -47,14 +47,7 @@ export default function Main({
               </Suspense>
             }
           />
-          <Route
-            path="*"
-            element={
-              <div className="wrong-url">
-                <h1>404 not found</h1>
-              </div>
-            }
-          />
+          <Route path="*" element={<AllSections {...userData} />} />
         </Routes>
       </div>
       {width <= 500 && <LeftPanel {...socialMediaLinks} />}
