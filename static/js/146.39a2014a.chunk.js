@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkweb_portfolio=self.webpackChunkweb_portfolio||[]).push([[146],{8146:(e,l,t)=>{t.r(l),t.d(l,{default:()=>i});t(2791);var s=t(184);const i=()=>(0,s.jsxs)("div",{children:[(0,s.jsx)("h1",{style:{marginLeft:"5%"},children:"Hello Ishmeet Ji"}),(0,s.jsx)("h2",{style:{marginLeft:"5%"},children:"Welcome to the Rabbit Hole !"})]})}}]);
+//# sourceMappingURL=146.39a2014a.chunk.js.map
