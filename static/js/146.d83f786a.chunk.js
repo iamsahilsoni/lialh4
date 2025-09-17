@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkweb_portfolio=self.webpackChunkweb_portfolio||[]).push([[146],{8146:(e,l,s)=>{s.r(l),s.d(l,{default:()=>i});s(2791);var t=s(184);const i=()=>(0,t.jsx)("div",{children:(0,t.jsx)("h1",{style:{marginLeft:"5%"},children:"Hello Ishmeet Ji"})})}}]);
+//# sourceMappingURL=146.d83f786a.chunk.js.map
