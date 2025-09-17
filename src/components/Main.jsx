@@ -11,6 +11,10 @@ const LazyPortfolioBuilder = lazy(() =>
   import("./portfolio-builder/PortfolioBuilderWrapper")
 );
 
+const MysteryLady = lazy(() =>
+  import("./mysterylady/MysteryLady")
+);
+
 export default function Main({
   headerData,
   footerData,
@@ -44,6 +48,14 @@ export default function Main({
             element={
               <Suspense fallback={<h1>Loading...</h1>}>
                 <LazyPortfolioBuilder />
+              </Suspense>
+            }
+          />
+          <Route
+            path="/mysterylady"
+            element={
+              <Suspense fallback={<h1>Loading...</h1>}>
+                <MysteryLady />
               </Suspense>
             }
           />
