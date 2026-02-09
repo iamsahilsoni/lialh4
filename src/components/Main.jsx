@@ -4,16 +4,14 @@ import LeftPanel from "./left-panel/LeftPanel";
 import RightPanel from "./right-panel/RightPanel";
 import AllSections from "./all-sections/AllSections";
 import Footer from "./footer/Footer";
-import { Routes, Route } from "react-router-dom";
 import "./Main.css";
+import { Routes, Route, useLocation } from "react-router-dom";
 
-const LazyPortfolioBuilder = lazy(() =>
-  import("./portfolio-builder/PortfolioBuilderWrapper")
+const LazyPortfolioBuilder = lazy(
+  () => import("./portfolio-builder/PortfolioBuilderWrapper"),
 );
 
-const MysteryLady = lazy(() =>
-  import("./mysterylady/MysteryLady")
-);
+const MysteryLady = lazy(() => import("./mysterylady/MysteryLady"));
 
 export default function Main({
   headerData,
@@ -23,13 +21,22 @@ export default function Main({
   userData,
 }) {
   const [width, setWidth] = useState(window.innerWidth);
+  const routerLocation = useLocation();
+
+  const isMysteryLady = routerLocation.pathname === "/mysterylady";
 
   useEffect(() => {
     const handleResize = () => setWidth(window.innerWidth);
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-
+  if (isMysteryLady) {
+    return (
+      <Suspense fallback={<h1>Loading...</h1>}>
+        <MysteryLady />
+      </Suspense>
+    );
+  }
   return (
     <div className="main">
       <Header {...headerData} socialMediaLinks={socialMediaLinks} />
@@ -48,14 +55,6 @@ export default function Main({
             element={
               <Suspense fallback={<h1>Loading...</h1>}>
                 <LazyPortfolioBuilder />
-              </Suspense>
-            }
-          />
-          <Route
-            path="/mysterylady"
-            element={
-              <Suspense fallback={<h1>Loading...</h1>}>
-                <MysteryLady />
               </Suspense>
             }
           />
